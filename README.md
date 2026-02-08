@@ -1,4 +1,4 @@
-📞 Call Center Data Analysis Project
+## Call Center Data Analysis Project
 
 This project focuses on analyzing Call Center customer support data using SQL to uncover meaningful business insights.
 
