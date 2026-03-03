@@ -1,101 +1,64 @@
-## Call Center Data Analysis Project
+# 📞 Call Center Data Analysis | SQL Project
 
-This project focuses on analyzing Call Center customer support data using SQL to uncover meaningful business insights.
+> SQL-based analysis of call center operations data to uncover
+> customer sentiment patterns, CSAT score drivers, response time
+> efficiency, and channel performance — enabling data-driven
+> decisions to improve customer support.
 
-🎯 Objective
+![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white)
+![SQL](https://img.shields.io/badge/SQL-336791?style=for-the-badge&logo=postgresql&logoColor=white)
+![CSV](https://img.shields.io/badge/Dataset-CSV-green?style=for-the-badge&logo=files&logoColor=white)
+![Status](https://img.shields.io/badge/Status-Completed-brightgreen?style=for-the-badge)
 
-To understand customer behavior, call trends, satisfaction scores, and performance of call centers.
+---
 
-🛠 Tools Used
+## 📌 Project Overview
 
-MySQL
+| Detail      | Info                                          |
+|-------------|-----------------------------------------------|
+| Tool        | MySQL Workbench                               |
+| Dataset     | Call Center.csv                               |
+| Techniques  | Data Cleaning, Aggregation, Window Functions  |
+| Domain      | Customer Service / Operations Analytics       |
+| Status      | ✅ Completed                                  |
 
-SQL Queries
+---
 
-CSV Dataset
+## 🎯 Business Questions Answered
 
-📌 Key Analysis Performed
+- ✅ What is the total call volume by city and state?
+- ✅ Which call center has the best response time performance?
+- ✅ What is the sentiment distribution across all calls?
+- ✅ How does CSAT score vary by channel and call reason?
+- ✅ What are the peak call days and average call durations?
+- ✅ Which reasons drive the most negative customer sentiment?
 
-Total calls & call distribution by city/state
+---
 
-Customer sentiment analysis
+## 🔍 Key Analysis Performed
 
-Average call duration analysis
+### 📊 Call Volume Analysis
+- Total calls distribution by city and state
+- Peak call days and time-of-day patterns
+- Channel-wise call breakdown (call centre, chatbot, email, web)
 
-CSAT score insights
+### 😊 Sentiment & CSAT Analysis
+- Customer sentiment classification — Positive, Neutral, Negative
+- CSAT score distribution and average by call center
+- Correlation between response time and customer satisfaction
 
-Channel-wise and reason-wise call breakdown
+### ⏱️ Response Time Performance
+- Average call duration by call center and reason
+- Response time benchmarking — Within SLA vs Below SLA
+- Agent performance comparison across locations
 
-Response time performance by call center
+### 📋 Data Cleaning Applied
+- Handled missing CSAT scores (NULL treatment)
+- Standardized sentiment labels
+- Removed duplicate call records
+- Converted date/time columns to proper format
 
-📊 Insights Generated
+---
 
-This project helps identify operational improvements and enhance customer satisfaction by using data-driven decisions.
-
-✅ Suggestion 2 (Short & Clean – Perfect GitHub Style)
-📞 Call Center Data Analysis (SQL Project)
-
-A complete SQL-based data analysis project using Call Center dataset.
-
-🔍 What I Analyzed
-
-Call volume trends
-
-Sentiment distribution
-
-Customer satisfaction (CSAT)
-
-Call duration patterns
-
-City/state wise performance
-
-Channel and response time analysis
-
-🧰 Tech Stack
-
-MySQL
-
-SQL
-
-CSV Dataset
-
-📌 Output
-
-Business insights that help improve customer experience and call center efficiency.
-
-✅ Suggestion 3 (Most Attractive + Project Format 🔥)
-📊 CALL CENTER DATA ANALYSIS PROJECT
-📌 Project Overview
-
-This project is designed to analyze call center operations data and generate insights using SQL.
-It helps in identifying patterns in customer calls, sentiment, satisfaction score, and agent response performance.
-
-🎯 Goals
-
-Improve customer satisfaction
-
-Understand call volume distribution
-
-Identify most common call reasons
-
-Measure response time efficiency
-
-🛠 Tools & Technologies
-
-MySQL Workbench
-
-SQL Queries
-
-Call Center Dataset (CSV)
-
-📈 Key Findings Covered
-
-Total calls by city and state
-
-Call center performance comparison
-
-Sentiment vs CSAT analysis
-
-Peak call days and call duration insights
-
-Channel usage breakdown
+## 🧮 Sample SQL Queries
+```sql
